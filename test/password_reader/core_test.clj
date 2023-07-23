@@ -3,5 +3,5 @@
             [password-reader.core :refer :all]))
 
 (deftest a-test
-  (testing "FIXME, I fail."
+  (testing "I fail."
     (is (= 0 1))))
