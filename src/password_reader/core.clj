@@ -1,5 +1,5 @@
 ;; namespace for leinengen
-(ns passwd-reader.core
+(ns password-reader.core
   (:require [clojure.java.io :as io]
             [clojure.string :as str])
   (:gen-class))
@@ -26,8 +26,9 @@
     (println (str "Shell: " shell ", Count: " count))))
 
 ;; main() function "the meat n potatoes"
-(defn -main [& args]
+(defn -main
   "run the function"
+  [& args]
   (let [passwd-file-path "passwd"
         passwd-lines (read-passwd-file passwd-file-path)
         login-shells (count-login-shells passwd-lines)]

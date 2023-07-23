@@ -7,5 +7,4 @@
   :main ^:skip-aot password-reader.core
   :target-path "target/%s"
   :plugins [[dev.weavejester/lein-cljfmt "0.10.6"]]
-  :profiles {:uberjar {:aot :all
-                       :jvm-opts ["-Dclojure.compiler.direct-linking=true"]}})
+  :profiles {:uberjar {:aot :all}})
