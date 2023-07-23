@@ -8,4 +8,4 @@ Leinengen
 
 ## License
 
-This project is licenced under a modified [WTFPL](LICENCE.txt)
+This project is licenced under a modified [WTFPL](LICENSE.txt)
