@@ -1,6 +1,0 @@
-#
-# A fatal error has been detected by the Java Runtime Environment:
-#
-#  SIGSEGV (0xb) at pc=0x000005021897045f, pid=22833, tid=0x000005023a23e240
-#
-# JRE version: OpenJDK Runtime Environment (8.0_372-b07) (build 1.8.0_372-b07)
